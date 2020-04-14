@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Eagle">
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="164dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="36dp"
+        android:text="Eagle Pose"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.627"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="182dp"
+        android:layout_height="177dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView48"
+        app:srcCompat="@drawable/eagle" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="326dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="8dp"
+        android:text="Step 1  Stand in Tadasana. Bend your knees slightly, lift your left foot up and, balancing on your right foot, cross your left thigh over the right. Point your left toes toward the floor, press the foot back, and then hook the top of the foot behind the lower right calf. Balance on the right foot."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="322dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="16dp"
+        android:text="Step 4  Stay for 15 to 30 seconds, then unwind the legs and arms and stand in Tadasana again. Repeat for the same length of time with the arms and legs reversed."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView52" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="322dp"
+        android:layout_height="103dp"
+        android:layout_marginTop="16dp"
+        android:text="Step 2  Stretch your arms straight forward, parallel to the floor, and spread your scapulas wide across the back of your torso. Cross the arms in front of your torso so that the right arm is above the left, then bend your elbows. Snug the right elbow into the crook of the left, and raise the forearms perpendicular to the floor. The backs of your hands should be facing each other."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView49" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="322dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="16dp"
+        android:text="Step 3  Press the right hand to the right and the left hand to the left, so that the palms are now facing each other. The thumb of the right hand should pass in front of the little finger of the left. Now press the palms together (as much as is possible for you), lift your elbows up, and stretch the fingers toward the ceiling."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView51" />
+</androidx.constraintlayout.widget.ConstraintLayout>

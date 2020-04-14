@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/settings"
+            android:id="@+id/settingsHeader"/>
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="75dp"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            android:text="Settings"-->
+<!--            android:gravity="center"-->
+<!--            android:textSize="30dp"-->
+<!--            android:textColor="@color/colorWhite"/>-->
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonProfile"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="105dp"
+            android:background="#BABBB4B4"
+            android:text="Profile"
+            android:onClick="profile"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonHelp"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/buttonProfile"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="#BABBB4B4"
+            android:text="Help"
+            android:onClick="help"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonInvite"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/buttonHelp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="#BABBB4B4"
+            android:onClick="inviteFriends"
+            android:text="Invite Friends"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/buttonFeedback"
+            android:layout_width="340dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/buttonInvite"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:background="#BABBB4B4"
+            android:onClick="email"
+            android:text="Feedback"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/buttonLogOut"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/navigationBar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="40dp"
+            android:background="#BAF04646"
+            android:onClick="logout"
+            android:text="LogOut"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navigationBar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            app:menu="@menu/nav_items"
+            app:itemBackground="@color/colorPrimary"
+            app:itemIconTint="@color/nav_item_colors"
+            app:itemTextColor="@color/nav_item_colors">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="719dp">
+
+        <ImageView
+            android:id="@+id/HelpTitle"
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:src="@drawable/help" />
+
+        <TextView
+            android:id="@+id/textViewFAQS"
+            android:layout_width="137dp"
+            android:layout_height="56dp"
+            android:layout_below="@id/HelpTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="17dp"
+            android:gravity="center"
+            android:textSize="27dp"
+            android:textStyle="bold"
+            android:text="FAQs" />
+
+        <TextView
+            android:id="@+id/editTextQ1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textViewFAQS"
+            android:layout_centerHorizontal="true"
+            android:inputType="textPersonName"
+            android:layout_marginTop="15dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:onClick="questionShow"
+            android:text="How do you set up the reminder?" />
+
+        <TextView
+            android:id="@+id/editTextA1"
+            android:layout_width="352dp"
+            android:layout_height="84dp"
+            android:layout_below="@id/editTextQ1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="6dp"
+            android:visibility="invisible"
+            android:text="Navigate to the Reminder Page, set a time on when you want to be reminded to go to sleep. Onsen will take care of the rest"
+            android:textSize="14.5dp" />
+
+
+        <TextView
+            android:id="@+id/editTextQ2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextQ1"
+            android:layout_centerHorizontal="true"
+            android:inputType="textPersonName"
+            android:layout_marginTop="65dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:onClick="questionShow"
+            android:text="What features does Onsen have?" />
+
+
+        <TextView
+            android:id="@+id/editTextA2"
+            android:layout_width="352dp"
+            android:layout_height="84dp"
+            android:layout_below="@id/editTextQ2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:visibility="invisible"
+            android:text="Onsen has the ability to provide a report, track and improve sleep using music and other tools"
+            android:textSize="14.5dp" />
+
+        <TextView
+            android:id="@+id/editTextQ3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextQ2"
+            android:layout_centerHorizontal="true"
+            android:inputType="textPersonName"
+            android:layout_marginTop="55dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:onClick="questionShow"
+            android:text="Is my account information safe?" />
+
+
+        <TextView
+            android:id="@+id/editTextA3"
+            android:layout_width="352dp"
+            android:layout_height="84dp"
+            android:layout_below="@id/editTextQ3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:visibility="invisible"
+            android:text="Our application uses Parse server which is a secure online database with encrypted data that is powerful and safe"
+            android:textSize="14.5dp" />
+
+
+        <TextView
+            android:id="@+id/editTextQ4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextQ3"
+            android:layout_centerHorizontal="true"
+            android:inputType="textPersonName"
+            android:layout_marginTop="55dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:onClick="questionShow"
+            android:text="How does the monitoring work?" />
+
+
+        <TextView
+            android:id="@+id/editTextA4"
+            android:layout_width="352dp"
+            android:layout_height="84dp"
+            android:layout_below="@id/editTextQ4"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:visibility="invisible"
+            android:text="The monitoring uses the sensors on the phone to check how you sleep. It works in the backend once started"
+            android:textSize="14.5dp" />
+
+        <TextView
+            android:id="@+id/editTextQ5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editTextQ4"
+            android:layout_centerHorizontal="true"
+            android:inputType="textPersonName"
+            android:layout_marginTop="55dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:onClick="questionShow"
+            android:text="Where can I provide feedback to the app?" />
+
+        <TextView
+            android:id="@+id/editTextA5"
+            android:layout_width="349dp"
+            android:layout_height="91dp"
+            android:layout_below="@id/editTextQ5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:visibility="invisible"
+            android:text="The application has an option in the settings tab. Once the user clicks on this feedback button a function to email feedback@onsen.com will display. Please write anything you would like to see in the app in the future."
+            android:textSize="14.5dp" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/editTextA5"
+            android:layout_marginTop="-5dp"
+            android:src="@drawable/logo"
+            android:onClick="goHome"/>
+
+    </RelativeLayout>
+
+
+    <!--    <RelativeLayout-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content" >-->
+
+
+    <!--        <com.google.android.material.bottomnavigation.BottomNavigationView-->
+    <!--            android:id="@+id/navigationBar"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="55dp"-->
+    <!--            android:layout_alignParentBottom="true"-->
+    <!--            android:layout_alignParentStart="true"-->
+    <!--            android:layout_alignParentLeft="true"-->
+    <!--            app:menu="@menu/nav_items"-->
+    <!--            app:itemBackground="@color/colorPrimary"-->
+    <!--            app:itemIconTint="@color/nav_item_colors"-->
+    <!--            app:itemTextColor="@color/nav_item_colors">-->
+
+    <!--        </com.google.android.material.bottomnavigation.BottomNavigationView>-->
+
+
+    <!--    </RelativeLayout>-->
+
+
+
+</LinearLayout>

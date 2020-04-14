@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/profileTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:src="@drawable/profile" />
+
+        <ImageView
+            android:id="@+id/imageViewProfilePic"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:layout_below="@+id/profileTitle"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="141dp"
+            android:layout_marginLeft="141dp"
+            android:layout_marginTop="70dp"
+            android:layout_marginEnd="142dp"
+            android:layout_marginRight="142dp"
+            android:src="@drawable/baseline_tv_black_18dp" />
+
+        <TextView
+            android:id="@+id/userNameProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@id/imageViewProfilePic"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Name of User"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/userEmailProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@id/userNameProfile"
+            android:gravity="center"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Email of User"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/memberSinceProfile"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_below="@id/userEmailProfile"
+            android:gravity="center"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:text="Member Since"
+            android:textSize="20dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/memberSinceProfile"
+            android:layout_marginTop="138dp"
+            android:src="@drawable/logo"
+            android:onClick="goHome"/>
+
+    </RelativeLayout>
+
+
+    <!--    <RelativeLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content" >-->
+
+
+<!--        <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--            android:id="@+id/navigationBar"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="55dp"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_alignParentStart="true"-->
+<!--            android:layout_alignParentLeft="true"-->
+<!--            app:menu="@menu/nav_items"-->
+<!--            app:itemBackground="@color/colorPrimary"-->
+<!--            app:itemIconTint="@color/nav_item_colors"-->
+<!--            app:itemTextColor="@color/nav_item_colors">-->
+
+<!--        </com.google.android.material.bottomnavigation.BottomNavigationView>-->
+
+
+<!--    </RelativeLayout>-->
+
+
+
+</LinearLayout>

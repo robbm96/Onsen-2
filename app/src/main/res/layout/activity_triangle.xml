@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Triangle">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="280dp"
+        android:layout_height="86dp"
+        android:layout_marginTop="28dp"
+        android:text="How to do it: Start standing with your feet one leg's-length apart. Open and stretch your arms to the sides at shoulder height. Turn your right foot out 90 degrees and your left toes in about 45 degrees."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="278dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="28dp"
+        android:text="Turn your gaze up to the top hand and hold for 5-8 breaths. Lift up to stand and repeat on the opposite side."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView18" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="190dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="56dp"
+        android:text="Triangle"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.773"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="184dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView17"
+        app:srcCompat="@drawable/triangle" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="278dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="28dp"
+        android:text="Engage your quadriceps and abdominals as you hinge to the side over your right leg. Place your right hand down on your ankle, shin or knee (or a block if you have one) and lift your left arm up to the ceiling."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+</androidx.constraintlayout.widget.ConstraintLayout>

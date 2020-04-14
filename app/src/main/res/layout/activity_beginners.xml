@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Beginners">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="276dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="88dp"
+        android:text="Select a yoga pose that you would like to work on:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="185dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:background="#00BCD4"
+        android:onClick="mountainClick"
+        android:text="Mountain Pose"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="186dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="32dp"
+        android:background="#00BCD6"
+        android:onClick="downwardClick"
+        android:text="Downward facing dog"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="185dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:background="#00BCD7"
+        android:onClick="plankClick"
+        android:text="Plank"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="185dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:background="#00BCD9"
+        android:onClick="treeClick"
+        android:text="Tree"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="185dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:background="#00BCD8"
+        android:onClick="triangleClick"
+        android:text="Triangle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7" />
+</androidx.constraintlayout.widget.ConstraintLayout>

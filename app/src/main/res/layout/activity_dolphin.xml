@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dolphin">
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="196dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="52dp"
+        android:text="Dolphin Plank"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="251dp"
+        android:layout_height="143dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView34"
+        app:srcCompat="@drawable/dolphin" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="301dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="16dp"
+        android:text="Step 1  Start in Dolphin Pose, knees bent. Then walk your feet back until your shoulders are directly over the elbows and your torso is parallel to the floor."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="301dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="16dp"
+        android:text="Step 4  Stay anywhere from 30 seconds to a minute. Then, release your knees to the floor with an exhale."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView41" />
+
+    <TextView
+        android:id="@+id/textView37"
+        android:layout_width="301dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="16dp"
+        android:text="Step 2  Press your inner forearms and elbows firmly against the floor. Firm your shoulder blades against your back and spread them away from the spine. Similarly spread your collarbones away from the sternum."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <TextView
+        android:id="@+id/textView41"
+        android:layout_width="304dp"
+        android:layout_height="102dp"
+        android:layout_marginTop="16dp"
+        android:text="Step 3  Press your front thighs toward the ceiling, but resist your tailbone toward the floor as you lengthen it toward the heels. Lift the base of your skull away from the back of the neck and look straight down at the floor, keeping the throat and eyes soft."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView37" />
+</androidx.constraintlayout.widget.ConstraintLayout>

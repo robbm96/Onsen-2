@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Shoulder">
+
+    <TextView
+        android:id="@+id/textView70"
+        android:layout_width="210dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="40dp"
+        android:text="Shoulder-pressing Pose"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.582"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="274dp"
+        android:layout_height="164dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView70"
+        app:srcCompat="@drawable/shoulder" />
+
+    <TextView
+        android:id="@+id/textView71"
+        android:layout_width="340dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="32dp"
+        android:text="Step 1  Squat with your feet a little less than shoulder width apart, knees wide."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
+
+    <TextView
+        android:id="@+id/textView72"
+        android:layout_width="338dp"
+        android:layout_height="85dp"
+        android:text="Step 5  Squeeze your outer arms with your inner thighs, and cross your right ankle over your left ankle. Look straight ahead. Hold for 30 seconds, then bend your elbows and lightly release your feet back to the floor with an exhale."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView73" />
+
+    <TextView
+        android:id="@+id/textView73"
+        android:layout_width="338dp"
+        android:layout_height="85dp"
+        android:text="Step 4  Press your inner hands firmly against the floor and slowly begin to rock your weight back, off your feet and onto your hands. As you straighten your arms, your feet will lift lightly off floor, not by raw strength but by carefully shifting your center of gravity."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView74" />
+
+    <TextView
+        android:id="@+id/textView74"
+        android:layout_width="339dp"
+        android:layout_height="93dp"
+        android:text="Step 3  Snug your upper left arm and shoulder as much as possible under the back of your left thigh just above the knee, and place your left hand on the floor at the outside edge of your left foot, fingers pointing forward. Then repeat on the right. As you do this your upper back will round."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView75" />
+
+    <TextView
+        android:id="@+id/textView75"
+        android:layout_width="341dp"
+        android:layout_height="78dp"
+        android:text="Step 2  Tilt your torso forward between your inner thighs. Then, keeping your torso low, raise your hips until your thighs become close to parallel to the floor."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView71" />
+</androidx.constraintlayout.widget.ConstraintLayout>

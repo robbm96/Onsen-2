@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mountain">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="157dp"
+        android:layout_height="148dp"
+        android:layout_marginTop="44dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/mountain" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="222dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="68dp"
+        android:text="Mountain Pose"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.767"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="294dp"
+        android:layout_height="84dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginBottom="8dp"
+        android:text='Mountain Pose is the base for all standing poses; it gives you a sense of how to ground in to your feet and feel the earth below you. Mountain pose may seem like "simply standing," but there is a ton going on.'
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="298dp"
+        android:layout_height="88dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="28dp"
+        android:text="How to do it: Start standing with your feet together. Press down through all ten toes as you spread them open. Engage your quadriceps to lift your kneecaps and lift up through the inner thighs. Draw your abdominals in and up as you lift your chest and press the tops of the shoulders down."
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="296dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="20dp"
+        android:text="Feel your shoulder blades coming towards each other and open your chest; but keep your palms facing inwards towards the body. Imagine a string drawing the crown of the head up to the ceiling and breathe deeply in to the torso. Hold for 5-8 breaths."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

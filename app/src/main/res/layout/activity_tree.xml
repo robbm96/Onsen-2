@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tree">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="119dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="60dp"
+        android:text="Tree"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.628"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="191dp"
+        android:layout_height="167dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView21"
+        app:srcCompat="@drawable/tree" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="270dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="28dp"
+        android:text="Tree is an awesome standing balance for beginners to work on to gain focus and clarity, and learn to breathe while standing and keeping the body balanced on one foot."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="272dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="28dp"
+        android:text="Hold and breathe for 8-10 breaths then switch sides. Make sure you don’t lean in to the standing leg and keep your abdominals engaged and shoulders relaxed."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView24" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="271dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="28dp"
+        android:text="How to do it: Start with your feet together and place your right foot on your inner left upper thigh. Press your hands in prayer and find a spot in front of you that you can hold in a steady gaze."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+</androidx.constraintlayout.widget.ConstraintLayout>

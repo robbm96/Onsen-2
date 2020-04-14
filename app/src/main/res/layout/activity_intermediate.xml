@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Intermediate">
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="278dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="88dp"
+        android:text="Select an Intermediate yoga pose that you would like to work on:"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="185dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:background="#4DB551"
+        android:onClick="boatClick"
+        android:text="Boat Pose"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView25" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="185dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:background="#4DB551"
+        android:onClick="eagleClick"
+        android:text="Eagle Pose"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button12" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="185dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:background="#4DB551"
+        android:onClick="craneClick"
+        android:text="Crane Pose"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button13" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="185dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:background="#4DB551"
+        android:onClick="dolphinClick"
+        android:text="Dolphin Plank"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button14" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="185dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="32dp"
+        android:background="#4DB551"
+        android:onClick="bowClick"
+        android:text="Bow Pose"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button10" />
+</androidx.constraintlayout.widget.ConstraintLayout>

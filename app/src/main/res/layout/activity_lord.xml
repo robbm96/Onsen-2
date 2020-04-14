@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lord">
+
+    <TextView
+        android:id="@+id/textView64"
+        android:layout_width="204dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="28dp"
+        android:text="Lord of the Dance Pose"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="219dp"
+        android:layout_height="147dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView64"
+        app:srcCompat="@drawable/lord" />
+
+    <TextView
+        android:id="@+id/textView65"
+        android:layout_width="373dp"
+        android:layout_height="85dp"
+        android:layout_marginTop="20dp"
+        android:text="Step 1  Stand in Tadasana (Mountain Pose). Inhale, shift your weight onto your right foot, and lift your left heel toward your left buttock as you bend the knee. Press the head of your right thigh bone back, deep into the hip joint, and pull the knee cap up to keep the standing leg straight and strong."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView14" />
+
+    <TextView
+        android:id="@+id/textView66"
+        android:layout_width="374dp"
+        android:layout_height="82dp"
+        android:text="Step 5  Stay in the pose for 20 to 30 seconds. Then release the grasp on the foot, place the left foot back onto the floor, and repeat for the same length of time on the other side."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView67" />
+
+    <TextView
+        android:id="@+id/textView67"
+        android:layout_width="373dp"
+        android:layout_height="96dp"
+        android:text="Step 4  The second option with the hands is to sweep your right hand around behind your back and catch hold of the inner left foot. Then sweep the left hand back and grab the outside of the left foot. This variation will challenge your balance even more. Then raise the thigh as described in step 3. This second variation will increase the lift of your chest and the stretch of your shoulders."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView68" />
+
+    <TextView
+        android:id="@+id/textView68"
+        android:layout_width="373dp"
+        android:layout_height="85dp"
+        android:text="Step 3  Begin to lift your left foot up, away from the floor, and back, away from your torso. Extend the left thigh behind you and parallel to the floor. Stretch your right arm forward, in front of your torso, parallel to the floor."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView69" />
+
+    <TextView
+        android:id="@+id/textView69"
+        android:layout_width="373dp"
+        android:layout_height="94dp"
+        android:text="Step 2  There are two variations you might try here with your arms and hands. In either case, try to keep your torso relatively upright. The first is to reach back with your left hand and grasp the outside of your left foot or ankle. To avoid compression in your lower back, actively lift your pubis toward your navel, and at the same time, press your tailbone toward the floor."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView65" />
+</androidx.constraintlayout.widget.ConstraintLayout>

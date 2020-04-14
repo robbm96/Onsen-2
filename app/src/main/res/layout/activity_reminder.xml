@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/reminder" />
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="75dp"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            android:text="Reminder"-->
+<!--            android:gravity="center"-->
+<!--            android:textSize="30dp"-->
+<!--            android:textColor="@color/colorWhite"/>-->
+
+    </RelativeLayout>
+
+
+    <TimePicker
+        android:id="@+id/timePickerAlarm"
+        android:layout_width="430dp"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:timePickerMode="clock" />
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navigationBar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            app:menu="@menu/nav_items"
+            app:itemBackground="@color/colorPrimary"
+            app:itemIconTint="@color/nav_item_colors"
+            app:itemTextColor="@color/nav_item_colors">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+        <Button
+            android:id="@+id/buttonSet"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="49dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginRight="55dp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:text="Set"
+            android:onClick="setReminder"/>
+
+        <Button
+            android:id="@+id/buttonTurnOff"
+            android:layout_width="290dp"
+            android:layout_height="40dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="78dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="49dp"
+            android:layout_marginLeft="49dp"
+            android:layout_marginEnd="55dp"
+            android:layout_marginRight="55dp"
+            android:background="@color/colorAccent"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold"
+            android:text="TurnOff"
+            android:onClick="turnOff"/>
+
+<!--        <TextView-->
+<!--            android:id="@+id/textViewisSet"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Is the Alarm set?????" />-->
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+</LinearLayout>

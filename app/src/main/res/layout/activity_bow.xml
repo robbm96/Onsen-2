@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bow">
+
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="309dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:text="Step 1  Lie on your belly with your hands alongside your torso, palms up. (You can lie on a folded blanket to pad the front of your torso and legs.) Exhale and bend your knees, bringing your heels as close as you can to your buttocks. Reach back with your hands and take hold of your ankles (but not the tops of the feet). Make sure your knees aren't wider than the width of your hips, and keep your knees hip width for the duration of the pose."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+    <TextView
+        android:id="@+id/textView39"
+        android:layout_width="313dp"
+        android:layout_height="87dp"
+        android:layout_marginTop="16dp"
+        android:text="Step 4  Stay in this pose anywhere from 20 to 30 seconds. Release as you exhale, and lie quietly for a few breaths. You can repeat the pose once or twice more."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView33" />
+
+    <TextView
+        android:id="@+id/textView40"
+        android:layout_width="310dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="16dp"
+        android:text="Step 2  Inhale and strongly lift your heels away from your buttocks and, at the same time, lift your thighs away from the floor. This will have the effect of pulling your upper torso and head off the floor. Burrow the tailbone down toward the floor, and keep your back muscles soft. As you continue lifting the heels and thighs higher, press your shoulder blades firmly against your back to open your heart. Draw the tops of the shoulders away from your ears. Gaze forward."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView38" />
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="157dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="44dp"
+        android:text="Bow pose"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.673"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="195dp"
+        android:layout_height="151dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView32"
+        app:srcCompat="@drawable/bow" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="310dp"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:text="Step 3  With the belly pressed against the floor, breathing will be difficult. Breathe more into the back of your torso, and be sure not to stop breathing."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView40" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

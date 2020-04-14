@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="417dp">
+
+        <!-- COMMENT ON RelativeLayout
+            I had to keep this 400dp ^ because it pushes the
+            navigation bar outside of the phone pane
+         If you make it bigger
+         !-->
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/monitor" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/toggleButton"
+            android:text="@string/motion_monitor"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/toggleButton2"
+            android:text="@string/noise_monitor"
+            android:textSize="30sp" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toggleButton"
+            android:layout_alignParentLeft="false"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="false"
+            android:layout_centerHorizontal="false"
+            android:layout_centerVertical="false"
+            android:text="ToggleButton" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="ToggleButton" />
+
+        <!--        <TextView-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="75dp"-->
+        <!--            android:background="@color/colorPrimary"-->
+        <!--            android:text="Monitor"-->
+        <!--            android:gravity="center"-->
+        <!--            android:textSize="30dp"-->
+        <!--            android:textColor="@color/colorWhite"/>-->
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navigationBar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            app:itemBackground="@color/colorPrimary"
+            app:itemIconTint="@color/nav_item_colors"
+            app:itemTextColor="@color/nav_item_colors"
+            app:menu="@menu/nav_items">
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

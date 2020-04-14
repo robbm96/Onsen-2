@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Onsen</string>
+
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+
+    <!-- Change the following strings as required -->
+    <string name="back4app_app_id">6yLoqqDiGYvnh7DcyR3MxuYbSbGYSgVyTfNHnhOf</string>
+    <string name="back4app_client_key">xRBuWnY6iouF4Zfc21EUkm8WyAdr7C8BxWdibk6y</string>
+    <string name="nav_reports">Reports</string>
+    <string name="nav_monitor">Monitor</string>
+    <string name="nav_meditate">Meditate</string>
+    <string name="nav_reminder">Reminder</string>
+    <string name="motion_monitor">Motion Monitor</string>
+    <string name="noise_monitor">Noise Monitor</string>
+    <string name="motion_report">Motion levels of your 10 most recent sleep sessions:</string>
+    <string name="noise_report">Noise levels of your 10 most recent sleep sessions:</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nav_settings">Settings</string>
+
+</resources>

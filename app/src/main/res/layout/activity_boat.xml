@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Boat">
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="366dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="20dp"
+        android:text="Step 1  Sit on the floor with your legs straight in front of you. Press your hands on the floor a little behind your hips, fingers pointing toward the feet, and strengthen the arms. Lift through the top of the sternum and lean back slightly. As you do this make sure your back doesn't round; continue to lengthen the front of your torso between the pubis and top sternum. Sit on the &quot;tripod&quot; of your two sitting bones and tailbone."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="362dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="8dp"
+        android:text="Step 3  Stretch your arms alongside the legs, parallel to each other and the floor. Spread the shoulder blades across your back and reach strongly out through the fingers. If this isn't possible, keep the hands on the floor beside your hips or hold on to the backs of your thighs."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView31" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="359dp"
+        android:layout_height="81dp"
+        android:text="Step 5  At first stay in the pose for 10-20 seconds. Gradually increase the time of your stay to 1 minute. Release the legs with an exhalation and sit upright on an inhalation."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView27"
+        app:layout_constraintVertical_bias="0.644" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="365dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="8dp"
+        android:text="Step 2  Exhale and bend your knees, then lift your feet off the floor, so that the thighs are angled about 45-50 degrees relative to the floor. Lengthen your tailbone into the floor and lift your pubis toward your navel. If possible, slowly straighten your knees, raising the tips of your toes slightly above the level of your eyes. If this isn't possible remain with your knees bent, perhaps lifting the shins parallel to the floor."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView28" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="178dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="16dp"
+        android:text="Boat Pose"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.648"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="215dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.438"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView26"
+        app:srcCompat="@drawable/boat" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="360dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="8dp"
+        android:text="Step 4  While the lower belly should be firm, it shouldn't get hard and thick. Try to keep the lower belly relatively flat. Press the heads of the thigh bones toward the floor to help anchor the pose and lift the top sternum. Breathe easily. Tip the chin slightly toward the sternum so the base of the skull lifts lightly away from the back of the neck."
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView29" />
+</androidx.constraintlayout.widget.ConstraintLayout>

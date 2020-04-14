@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReportsActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/reports" />
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="75dp"-->
+<!--            android:background="@color/colorPrimary"-->
+<!--            android:text="Reports"-->
+<!--            android:gravity="center"-->
+<!--            android:textSize="30dp"-->
+<!--            android:textColor="@color/colorWhite"/>-->
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/navigationBar"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            app:menu="@menu/nav_items"
+            app:itemBackground="@color/colorPrimary"
+            app:itemIconTint="@color/nav_item_colors"
+            app:itemTextColor="@color/nav_item_colors">
+
+
+        </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+        <TextView
+            android:id="@+id/motionReport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/motion_report" />
+
+        <TextView
+            android:id="@+id/motionData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/motionReport"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/noiseReport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/motionData"
+            android:text="@string/noise_report" />
+
+        <TextView
+            android:id="@+id/noiseData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/noiseReport"
+            android:text="TextView" />
+
+
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>
