@@ -99,7 +99,7 @@ public class ReminderActivity extends AppCompatActivity {
 
 //        isReminderSet("YEEEET" + sHour
 //        + " " + sMinute);
-
+                        Toast.makeText(ReminderActivity.this, "Reminder set to: " + sHour + ":" + sMinute , Toast.LENGTH_SHORT).show();
 
         Intent intent = new Intent(getApplicationContext(), ReminderLogic.class);
         intent.putExtra("extra", "reminder on");
@@ -115,6 +115,7 @@ public class ReminderActivity extends AppCompatActivity {
 
         Intent intent = new Intent(getApplicationContext(), ReminderLogic.class);
 
+                                Toast.makeText(ReminderActivity.this, "Reminder OFF", Toast.LENGTH_SHORT).show();
         intent.putExtra("extra", "reminder off");
         reminderManager.cancel(pendingIntent);
 

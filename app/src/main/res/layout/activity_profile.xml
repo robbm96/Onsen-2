@@ -37,40 +37,40 @@
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_below="@id/imageViewProfilePic"
-            android:gravity="center"
-            android:layout_marginTop="30dp"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:text="Name of User"
-            android:textSize="20dp"/>
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Name of User: Bob Jones"
+            android:textSize="20dp" />
 
         <TextView
             android:id="@+id/userEmailProfile"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_below="@id/userNameProfile"
-            android:gravity="center"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:text="Email of User"
-            android:textSize="20dp"/>
+            android:gravity="center"
+            android:text="Email of User: bob@mail.com"
+            android:textSize="20dp" />
 
         <TextView
             android:id="@+id/memberSinceProfile"
             android:layout_width="wrap_content"
             android:layout_height="50dp"
             android:layout_below="@id/userEmailProfile"
-            android:gravity="center"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentRight="true"
-            android:text="Member Since"
-            android:textSize="20dp"/>
+            android:gravity="center"
+            android:text="Member Since: 02/10/2020"
+            android:textSize="20dp" />
 
         <ImageView
             android:layout_width="50dp"
